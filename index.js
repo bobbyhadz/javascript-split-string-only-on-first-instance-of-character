@@ -1,13 +1,13 @@
-// // EXAMPLE 1 - Split a String only on the First Occurrence of a Character
+// EXAMPLE 1 - Split a String only on the First Occurrence of a Character
 
-// const str = 'bobby-hadz-com';
-// const [first, ...rest] = str.split('-');
+const str = 'bobby-hadz-com';
+const [first, ...rest] = str.split('-');
 
-// console.log(first); // 👉️ bobby
-// console.log(rest); // 👉️ ['hadz', 'com']
+console.log(first); // 👉️ bobby
+console.log(rest); // 👉️ ['hadz', 'com']
 
-// const remainder = rest.join('-');
-// console.log(remainder); // 👉️ hadz-com
+const remainder = rest.join('-');
+console.log(remainder); // 👉️ hadz-com
 
 // ------------------------------------------------------------------
 
